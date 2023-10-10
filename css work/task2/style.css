@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.mainbody {
+    width: 100%;
+}
+
+.rowone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+
+.rowtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    width: 40%;
+    height: 250px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+    display: flex;
+}
+
+.imagespace {
+    width: 200px;
+    height: 200px;
+    border: .4vw whitesmoke solid;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.one{
+    background-color: red;
+}
+.two{
+    background-color: violet;
+}
+.three{
+    background-color: blue;
+}
+.four{
+    background-color: aqua;
+}
+
+.discri{
+    margin-left: 20px;
+    width: 400px;
+}
+.discri h3{
+    color: darkgoldenrod;
+    
+}
+
+.price{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(183, 177, 177);
+    margin-top: 50px;
+    padding: 6px;
+    border-radius: 4px;
+}
+.pricebuy{
+    display: flex;
+}
+.buynow {
+    width: 80px;
+    height: 35px;
+    margin-left: 210px;
+    margin-top: 50px;
+    background-color: rgb(253, 187, 22);
+    color: white;
+    border: navajowhite;
+    border-radius: 7px;
+}

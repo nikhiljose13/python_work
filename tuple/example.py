@@ -1,0 +1,5 @@
+tp=(1,2,3,4,7,6,5,6)
+print(tp)
+print(type(tp))
+print(tp.count(6))     
+print(tp[3])

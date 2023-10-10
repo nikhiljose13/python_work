@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgba(92, 1, 92, 0.991);">
+    <h1 style="color: azure;">registration form</h1>
+    <form action="">
+
+
+        <div><label for="id_name">Name:</label><input type="text" placeholder="name" id="id_name"></div>
+
+        <div><label for="id_mail">Email:</label><input type="email" placeholder="mail id " id="id_mail"></div>
+
+        <div><label for="id_pass">password:</label><input type="password" placeholder="password" id="id_pass"></div>
+
+        <div><label for="id_phone">phone number:</label><input type="text" placeholder="phone number" id="id_phone">
+        </div>
+
+
+        <div>
+            <label for="">Gender:</label>
+            <label for="male">male</label><input type="radio" id="male" name="Gender">
+            <label for="female">female</label><input type="radio" id="female" name="Gender">
+            <label for="other">other</label><input type="radio" id="other" name="Gender">
+
+
+        </div>
+
+        <div>
+
+            <label for="">language:</label>
+            <select name="" id="">
+                <option value="">malayalam</option>
+                <option value="">eng</option>
+                <option value="">tamil</option>
+                <option value="">hindi</option>
+            </select>
+        </div>
+        <div>
+            <label for="id_zip">zip code: </label>
+            <input type="text" placeholder="zip code" id="id_zip">
+        </div>
+        <div>
+            <label for="">about</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="">dob</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="">skills</label>
+            <label for="">java</label>
+            <input type="checkbox">
+            <label for="">html</label>
+            <input type="checkbox" name="" id="">
+            <label for="">python</label>
+            <input type="checkbox" name="" id="">
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.item{
+    width: 80%;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.one{
+    width: 80%;
+    height: 500px;
+    color: aqua;
+}
